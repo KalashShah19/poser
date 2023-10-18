@@ -1,0 +1,63 @@
+body
+{ background: black;
+  color: #929280;
+}
+
+blockquote{border-color: #40403E;}
+
+#site_content
+{ background: url(back.png) repeat;
+  border-color: #40403E;
+}
+
+#menu li a, .side_menu_item a
+{ background: #40403E;
+  color: white;
+  border-color: #2C2C2A;
+}
+
+#logo, #logo h1
+{ background: #2C2C2A;
+  color: white;
+  border-color: cyan;
+}
+
+#content h1
+{ background: transparent;
+  color: white;
+  border-color: #40403E;
+}
+
+#links, #links a:hover, #links a.selected, #links a.selected:hover,
+#content, #content a:hover, .sub
+{ background: transparent;
+  color: white;
+}
+
+#links a, #content a
+{ background: transparent;
+  color: cyan;
+}
+
+#menu
+{ background: #40403E;
+  color: black;
+  border-color: cyan;
+}
+
+#menu li a:hover, #menu li a.selected, #menu li a.selected:hover
+{ background: cyan;
+  color: black;
+  border-color: #2C2C2A;
+} 
+
+.side_menu_item a.selected, .side_menu_item a:hover, .side_menu_item a.selected:hover
+{ background: #EEE;
+  color: white;
+}
+
+#contact input, #contact textarea, #contact input.submit
+{ background: #2C2C2A; 
+  color: white;
+  border-color: #40403E;
+}
